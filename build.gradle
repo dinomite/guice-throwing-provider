@@ -1,0 +1,10 @@
+apply plugin: "java"
+apply plugin: "application"
+
+application {
+    mainClassName = "net.dinomite.guice.throwing_provider.Main"
+}
+
+dependencies {
+    compile "com.google.inject:guice:4.2.2"
+}
