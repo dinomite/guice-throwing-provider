@@ -1,4 +1,4 @@
-package net.dinomite.guice.throwing_provider;
+package com.classpass;
 
 import io.dropwizard.Configuration;
 
