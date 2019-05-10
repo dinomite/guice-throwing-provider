@@ -1,6 +1,10 @@
 apply plugin: "java"
 apply plugin: "application"
 
+repositories {
+    jcenter()
+}
+
 application {
     mainClassName = "net.dinomite.guice.throwing_provider.Main"
 }
